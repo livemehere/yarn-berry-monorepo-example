@@ -1,0 +1,19 @@
+{
+  "name": "20.monorepo-yarn-berry",
+  "packageManager": "yarn@3.6.4",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependenciesMeta": {
+    "eslint@8.51.0": {
+      "unplugged": true
+    }
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^6.7.5",
+    "eslint": "^8.51.0",
+    "eslint-plugin-react": "^7.33.2",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  }
+}
